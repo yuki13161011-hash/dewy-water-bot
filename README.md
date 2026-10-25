@@ -56,9 +56,6 @@ LINE 訊息 → n8n Webhook → 過濾空事件 → 解析指令 → 取得暱�
 4. 重新建立 Credential：LINE（Header Auth，網域限制 `api.line.me`）、Google Sheets、Gemini。
 5. 把 Webhook 的 Production URL 貼到 LINE 後台，並發布 workflow。
 
-## ⚠️ 安全提醒
-
-本專案**不包含**任何金鑰。請勿把 Channel access token、API Key、含真實 userId 的試算表資料、完整 Webhook 網址提交到公開儲存庫。
 
 ## 踩過的坑
 
